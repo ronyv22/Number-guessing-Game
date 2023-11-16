@@ -8,7 +8,7 @@
 
 	let maxTries = 3;
 
-	function submitGuess() {
+	function submitGuess(event) {
 
 	event.preventDefault();
 
@@ -21,9 +21,9 @@
 	  	tries ++;
 
 	  	if(userGuess === randomNumber) {
-	  		document.getElementById("message").textContent = "Congrats! You found the number in " + tries + "tries.";
+	  		document.getElementById("message").textContent = "Congrats! You found the number in " + tries + " tries.";
 	  	} else if(tries >= maxTries) {
-	  		document.getElementById("message").textContent = "Sorry, you didn't guess the number in" + maxTries + "tries. The number was" + randomNumber + ".";
+	  		document.getElementById("message").textContent = "Sorry, you didn't guess the number in" + maxTries + "tries. The number was " + randomNumber + ".";
 	  	} else if(userGuess < randomNumber) {
 	  		document.getElementById("message").textContent = "Too Low. Try again!";
 	  	} else if(userGuess > randomNumber) {
