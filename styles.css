@@ -1,0 +1,34 @@
+body {	
+  margin-top: 200px;		
+  background: #e76f51;
+  font-family: 'Poppins', sans-serif;	
+  justify-content: center;
+  align-items: center;	
+  background-image: url("254729.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+h2 {
+ text-align: center;		
+ color: #264653;
+
+}
+
+
+p {
+ text-align: center;		
+ color: #264653;	
+}
+
+
+form {
+ display: flex;
+ justify-content: center;
+ margin: 10px 170px;
+}
+
+
+
+
