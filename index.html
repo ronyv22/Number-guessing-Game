@@ -7,16 +7,19 @@
     <title>Number-guessing Game</title>
   </head>
   <body>
-     <h3>Guess the Number!</h3>
+     <h2>Guess the Number!</h2>
      <p>Pick a number between 1 and 100:</p>
 
+  <form>
      <input type="number" id="guess" min="1" max="100">
-     <button onclick="guessSubmit()">Submit</button>
+     <button onclick="submitGuess(event)">Submit</button>
      <button onclick="resetGame()">Reset</button>
+ </form>
 
      <p id="message"></p>
 
      <script src="script.js"></script>
+
   </body>
 
 </html>
