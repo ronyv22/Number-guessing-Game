@@ -7,19 +7,23 @@ body {
   background-image: url("254729.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-blend-mode: lighten;
+
 }
 
 
-h2 {
+h1 {
  text-align: center;		
  color: #264653;
+ font-weight: bolder;
 
 }
 
 
 p {
  text-align: center;		
- color: #264653;	
+ color: #264653;
+ font-weight: 900;	
 }
 
 
@@ -28,7 +32,5 @@ form {
  justify-content: center;
  margin: 10px 170px;
 }
-
-
 
 
