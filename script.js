@@ -44,7 +44,7 @@ Finally, I defined another function that will rest the amount of user tries as w
   
   	  event.preventDefault();
 
-	  let userGuess = document.getElementById("guess").value;
+	  let userGuess = (document.getElementById("guess").value;
 
 
 	  if(isNaN(userGuess) || userGuess < 1 || userGuess > 100 ) {
@@ -66,6 +66,7 @@ Finally, I defined another function that will rest the amount of user tries as w
 
 
 	function resetGame() {
+
 	  randomNumber = Math.floor(Math.random() * 100) + 1;
 	  tries = 0;
 	  document.getElementById("guess").value = "";
